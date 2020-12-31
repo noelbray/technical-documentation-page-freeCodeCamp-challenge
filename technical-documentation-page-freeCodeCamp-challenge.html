@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial
+  <meta name="author" content="Noel Bray" />
+  <meta name="description" content="This is an example of a technical documentation page." />
+  
+  <link rel="stylesheet" href="css/main.css" />
+  
+  <script defer src="js/main.js"></script>
+
+</head>
+
+<body>
+
+<!-- At this time, I not concerned about going into super detail about the styling, colors, and etc. for this Technical Documentation Page. I just want to see if I can complete this 3rd HTML & CSS Free Code Camp Certification Challenge. Later on I may come back and change font colors and etc.-->
+
+<nav id="navbar">
+  <header>JS Documentation Shortcuts</header>
+  <a href="#introduction" class="nav-link">Introduction</a>
+  <a href="#Knowledge_Prerequisites" class="nav-link">Knowledge Prerequisites</a>
+  <a href="#Javascript_Is_Not_Java" class="nav-link">JavaScript Is Not Java</a>
+  <a href="#Write_Your_1st_JS_Code" class="nav-link">Write Your 1st JS Code</a>
+  <a href="#Variables" class="nav-link">Variables</a>
+  <a href="#Declaring_Variables" class="nav-link">Declaring Variables</a>
+</nav>
+
+<main id="main-doc">
+  
+  <section id="introduction" class="main-section">
+    <header>Introduction</header>
+    <p>JavaScript is an object-oriented scripting language. Everything is treated as an object and can be manipulated. Think of it like this, a car is an object, and you can interact with it and change its parts, color, and etc.</p>
+    <p>JavaScript can give your website interactivity such as making a pop up or slide in menu or dropdown menu.</p>
+  </section>
+  
+  <section id="Knowledge_Prerequisites" class="main-section">
+    <header>Knowledge Prerequisites</header>
+    <p>Before you begin writing JS code, you should:</p>
+    <ul>
+      <li>You should have expert knowledge of how the World Wide Web and Internet works...Just Kidding, but a basic understanding of them is very good to have.</li>
+      <li>Be very familiar with HTML.</li>
+      <li>A little programming experience with JS or some other programming language. If you've got no experience, do visit our <a href="#">beginner javascript tutorial webpage</a> and do some of the tutorials to dip your toes into the pool.</li>
+    </ul>
+  </section>
+  
+  <section id="Javascript_Is_Not_Java" class="main-section">
+    <header>JavaScript Is Not Java</header>
+    <p>"JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed."
+    
+  </section>
+  
+  <section id="Write_Your_1st_JS_Code" class="main-section">
+    <header>Write Your 1st JS Code</header>
+    <p>Press "F12" on your keyboard to open the browser developer tools. Then click on the section (word) Console tab. Press Ctrl+L to clear the console. Click in the white space. Make sure the cursor is in the white space. Write, type this in the whitespace:</p>
+    <code>function greetMe(inputYourNameHere) { alert("Hello " + inputYourNameHere) };</code>
+    <p>Press "Enter" and then invoke the function by typing it's name followed with your name surrounded by quotes inside the parentheses:</P>
+  <code>greetMe("inputYourNameHere");</code>
+  <p>Then press "Enter."</p>
+  </section>
+  
+  <section id="Variables" class="main-section">
+    <header>Variables</header>
+    <p>Identifiers a.k.a variables are storing containers for data, code, objects, etc. Think of it like a box you store an item in for future use.</p>
+    <p>You can give a variable any name you want as long as it starts with a letter, underscore (_), or dollar sign ($), and numbers (0-9) can be use in the name after that, but you canNot use a hypen (-) in it. JS is case sensitive so lowercase m and uppercase M are different variables.</p>
+    <p>Examples of legal names:</p>
+    <ul>
+      <li>l</li>
+      <li>U</li>
+      <li>My_Array</li>
+      <li>lucky7</li>
+      <li>_name</li>
+      <li>$show_me_The$</li>
+    </ul>
+  </section>
+  
+  <section id="Declaring_Variables" class="main-section">
+    <header>Declaring Variables</header>
+    <p>var is a keyword that is used to declare variables. Put var in front of the identifier name you want you'r variable to have. The put the assignment operator (=) after your variable's name and put number, array, object, or etc after that and a semicolon (;) at the end of the data, code, object, etc. </p>
+    <p>Number Object E.g.:</p>
+    <code>var my_made_up_variable_name = 40000000;</code>
+    <p>Object Object E.g.:</p>
+    <code>var my_object_literal = { 
+        first_name: "Johnny",
+        "last name": "Code",
+        age: 32
+      };
+    </code>
+    <p>Array Object</p>
+    <code>var my_array_literal = ["basketball", "football", "hockey", "mixed martial arts", "soccer"];
+    </code>
+    <p>Voila, now you have three global variables that can be accessed by anything and anywhere in your JS code, file.</p>
+  </section>
+</main>
+
+</body>
+
+
+
+</html>
