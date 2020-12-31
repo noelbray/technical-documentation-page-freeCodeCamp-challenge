@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+header {
+/*   border: 1px solid red; */
+  font-size: 21px;
+  font-weight: 700;
+}
+
+code {
+  background-color: rgb(200, 250, 200);
+  display: block;
+  padding: 5px;
+}
+
+#navbar {
+  border-right: 2px solid rgb(0, 200, 0);
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   height: calc(100vh -65px); */
+  height: 100%;
+/*   justify-content: column; */
+  overflow: auto;
+  padding-top: 8px;
+  position: fixed;
+  width: 22%;
+/*   width: max-content; works well but when vertical scrollbar is triggered it causes the nav header content to wrap.*/
+/*   text-align: center; */
+}
+
+nav header {
+/*   border: 1px solid purple; */
+/*   margin-left: -8px; */
+/*   height: calc(100vh/7); */
+  padding: 8px;
+}
+
+.nav-link {
+  border-top: 1px solid black;
+  display: block;
+/*   height: calc((100vh - 33px)/6); */
+  padding: 16px;
+}
+
+#main-doc {
+  margin-left: 25%;
+  padding: 8px 8px 8px 16px;
+}
+
+@media only screen and (max-width: 764px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+  }
+  
+/*   #navbar .nav-link:last-child { */
+  #navbar :last-child {
+    border-bottom: 1px solid black;
+  }
+  
+  #main-doc {
+    margin-left: 0;
+  }
+}
