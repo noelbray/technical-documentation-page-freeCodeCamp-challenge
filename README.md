@@ -18,4 +18,4 @@ Side Note:
 
 If you have any suggestions on how to improve my code, or how I can or what I can do to become a better web developer, feel free to send me a message. 
 
-Checkout my [Technical Documentation Page On Codepen](https://codepen.io/nwbnwb/pen/XWbEKPQ)
+Checkout my [Technical Documentation Page On Codepen](https://codepen.io/nwbnwb/full/XWbEKPQ)
